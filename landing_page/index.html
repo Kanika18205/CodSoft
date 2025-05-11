@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>TUNIX</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#"
+            >Tunix<span><i class="ri-music-2-fill"></i></span></a
+          >
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <span><i class="ri-menu-line"></i></span>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#why">Why TUNIX?</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#collections">Collections</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav__btns">
+        <button class="btn">Sign Up</button>
+      </div>
+    </nav>
+    <header class="section__container header__container" id="home">
+      <div class="header__image">
+        <img src="image.png" alt="header" />
+      </div>
+      <div class="header__content">
+        <h2>CREATE PLAYLIST & SHARE IT WITH YOUR FRIENDS</h2>
+        <h1>MUSIC FOR YOUR CURRENT MOOD</h1>
+        <p>
+          Discover the perfect soundtrack for every moment with our 'Music for
+          Your Current Mood' section. Whether you're feeling upbeat, reflective,
+          or somewhere in between, explore curated playlists and tunes tailored
+          to match your mood.
+        </p>
+        <div class="header__btns">
+          <a href="#">
+            <img src="play.jpg" alt="google-play" />
+          </a>
+          <a href="#">
+            <img src="app.jpg" alt="app-store" />
+          </a>
+          <button class="btn mobile-signup-btn">Sign Up</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- WHY TUNIX? section -->
+<section class="section_container info_section" id="why">
+    <div class="info_content">
+      <h2>WHY CHOOSE TUNIX?</h2>
+      <p>
+        Tunix was created with a simple belief — that music should feel personal. In a world flooded with generic playlists and automated choices, we wanted to build something human. Tunix listens to your emotions and helps you express what words can't. Whether you’re celebrating, healing, focusing, or just escaping for a while, our platform curates experiences that connect with your inner world. It’s not just about streaming songs — it’s about giving you a space to feel understood, to share your vibe, and to discover new versions of yourself through music.
+      </p>
+      
+    </div>
+  </section>
+
+   <!-- Features section -->
+   <section class="section_container features_section" id="features">
+    <div class="features_content">
+      <h2>EXPLORE OUR FEATURES</h2>
+      <ul>
+        <li><i class="ri-music-fill"></i> Personalized Playlist Creation</li>
+        <p>Create and manage personalized playlists with intuitive tools and mood tagging.</p>
+        <li><i class="ri-share-line"></i> One-Click Sharing</li>
+        <p>Share full playlists or a single track in seconds — no logins, no friction.</p>
+        <li><i class="ri-customer-service-2-line"></i> Seamless Streaming</li><p>Smooth, lag-free streaming with cross-device compatibility.</p>
+        <li><i class="ri-smartphone-line"></i> Mobile App Ready</li><p> Tunix offers smooth navigation, fast performance, and offline-ready features — so your music is always just a tap away.</p>
+        <li><i class="ri-volume-up-line"></i> Crystal-Clear Sound</li><p>Experience immersive audio quality with every track — no distortions, just pure, uninterrupted music that moves with you.</p>
+      </ul>
+    </div>
+  </section>
+
+  <!-- COLLECTIONS section -->
+  <section class="section_container collections_section" id="collections">
+    <h2 class="section_title">Curated Collections</h2>
+    <p class="section_description">
+      Dive into our handpicked playlists crafted for every vibe — whether you're focusing, relaxing, or partying.
+    </p>
+    <div class="collections_grid">
+      <div class="collection_card">
+        <img src="chill.jpg" alt="Chill Vibes" />
+        <h3>Chill Vibes</h3>
+        <p>Smooth tunes for late nights, cozy corners, and calm energy.</p>
+      </div>
+      <div class="collection_card">
+        <img src="focus.png" alt="Focus Flow" />
+        <h3>Focus Flow</h3>
+        <p>Stay in the zone with ambient beats and minimal distractions.</p>
+      </div>
+      <div class="collection_card">
+        <img src="party.png" alt="Party Boost" />
+        <h3>Party Boost</h3>
+        <p>Get the energy flowing with electrifying tracks and bold rhythms.</p>
+
+      </div>
+    </div>
+  </section>  
+
+  <!-- CONTACT section -->
+  <section class="section_container contact_section" id="contact">
+    <h2 class="section_title">Let's Connect</h2>
+    <p class="section_description">
+      Have questions, feedback, or collaboration ideas? Drop us a message — we'd love to hear from you!
+    </p>
+    <form class="contact_form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
