@@ -64,22 +64,22 @@ ScrollReveal().reveal(".header__content h1", {
 });
 ScrollReveal().reveal(".header__content p", {
   ...scrollRevealOption,
-  delay: 1500,
+  delay: 1100,
 });
 ScrollReveal().reveal(".header__btns", {
   ...scrollRevealOption,
-  delay: 2000,
+  delay: 1300,
 });
 
 
 ScrollReveal().reveal(".info_content h2", {
     ...scrollRevealOption,
-    delay: 500,
+    delay: 1600,
   });
 
   ScrollReveal().reveal(".info_content p", {
     ...scrollRevealOption,
-    delay: 1000,
+    delay: 1800,
   });
   ScrollReveal().reveal(".features_content h2", {
     ...scrollRevealOption,
